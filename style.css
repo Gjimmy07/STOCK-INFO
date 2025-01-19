@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+.box{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+@media screen and (max-width:700px) {
+    .nav{
+        display: flex;
+        
+    }
+
+     .box{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+
+    .carouselExampleIndicators{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+  
+  
+
+
+
+
+
+
+
+
